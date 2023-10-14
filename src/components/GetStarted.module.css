@@ -1,0 +1,26 @@
+.CustomGridItem {
+    display: flex;
+    flexDirection: column;
+    justifyContent: center;
+}
+
+.CustomTypography {
+    fontSize: '1.1rem';
+    textAlign: 'start';
+    lineHeight: '1.5';
+    color: '#515151';
+    marginTop: '1.5rem';
+}
+
+.GridContainer {
+    py: 10;
+    px: 2;
+}
+
+.BoxComponent {
+    px: 4;
+}
+
+.ImgStyle {
+    width: '100%';
+}

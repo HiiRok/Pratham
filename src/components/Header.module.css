@@ -1,0 +1,75 @@
+.CustomBox {
+  display: flex;
+  justify-content: center;
+  background-image: url(../assets/login.jpg);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  height: 500px; /* Adjust this value as needed */
+}
+
+@media (max-width: 960px) {
+  .CustomBox {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+}
+
+  
+  /* Typography styles */
+  .CustomTitle {
+    font-weight: 700;
+    color: #605e5e;
+    
+  }
+  
+  
+  /* Button styles */
+  .CustomButtonContained {
+    margin-right: 16px; /* Assuming theme.spacing(2) is 16px */
+    padding: 8px 32px; /* Assuming your preferred padding values */
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    border-radius: 0;
+    border-color: #14192d;
+    color: #fff;
+    background-color: rgb(37, 137, 244);
+    align-self: flex-end;
+    position: absolute;
+    bottom: 20px; /* Adjust this value to control the distance from the bottom */
+    left: 50%;
+    transform: translateX(-120%);
+
+   
+  }
+  
+  .CustomButtonContained:hover,
+  .CustomButtonContained:focus {
+    background-color: #343a55;
+  }
+  
+  .CustomButtonOutlined {
+    padding: 8px 32px; /* Assuming your preferred padding values */
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    border-radius: 0;
+    color: #0a0606;
+    background-color: transparent;
+    border-color: rgb(42, 129, 252);
+    align-self: flex-end;
+    position: absolute;
+    bottom: 20px; /* Adjust this value to control the distance from the bottom */
+    left: 50%;
+    transform: translateX(0%);
+  
+  }
+  
+  .CustomButtonOutlined:hover,
+  .CustomButtonOutlined:focus {
+    color: #343a55;
+    border-color: #343a55;
+  }
+  
+  

@@ -1,0 +1,38 @@
+.styledToolbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    background-image: url("../assets/logo.png");
+    background-repeat: no-repeat;
+    background-size: 50% 100%; /* Adjust this value as needed */
+    background-position: center;
+    border:.5px solid black;
+}
+.listMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0a0908;
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif,cursive; /* This will change the font of your element to Arial, and use a generic sans-serif font if Arial is not available */
+    font-style: italic;
+    height: 25px;   
+}
+
+@media screen and (min-width: 600px) {
+    .listMenu {
+        display: flex;
+        justify-content: space-around; /* This will distribute your items evenly along the horizontal line with equal space around them. */
+    }
+}
+
+.listItemButton {
+    color: #000000;
+    padding: 5px 10px; /* This will add some space around your items, making them look more like buttons. Adjust as needed. */
+    text-decoration: none; /* This will remove the underline from your items. */
+}
+
+.listItemButton:hover {
+  
+    color: #000000;
+}
