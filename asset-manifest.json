@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/github.io/Pratham/static/css/main.74523d75.css",
+    "main.js": "/github.io/Pratham/static/js/main.0911557a.js",
+    "static/media/login.jpg": "/github.io/Pratham/static/media/login.9668984a84f6bdc33b11.jpg",
+    "static/media/firstcourse.jpg": "/github.io/Pratham/static/media/firstcourse.570841fee50fade43418.jpg",
+    "static/media/logo.png": "/github.io/Pratham/static/media/logo.4773f66eaf7eda913bab.png",
+    "index.html": "/github.io/Pratham/index.html",
+    "main.74523d75.css.map": "/github.io/Pratham/static/css/main.74523d75.css.map",
+    "main.0911557a.js.map": "/github.io/Pratham/static/js/main.0911557a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74523d75.css",
+    "static/js/main.0911557a.js"
+  ]
+}
