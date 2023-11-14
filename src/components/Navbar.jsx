@@ -47,21 +47,18 @@ const Navbar = () => {
         <AppBar 
         component="nav" 
         position="sticky"
-        className="appBar"
+        className={styles.appbar}
         elevation={0}
         >
-            <Toolbar className={styles.styledToolbar}>
-                {/* <Box sx={{display: { xs: 'block', sm: 'none' } }}>
-                    <DrawerItem /> 
-                </Box> */}
-                </Toolbar>
+         
+            <Toolbar className={styles.styledToolbar}><a href="#" ><img className={styles.logo}></img></a></Toolbar>
                 <List className={styles.listMenu}>
                     {itemList.map( ( item ) => {
                         const { text } = item;
                         return(
-                            <ListItem key={text}>
+                            <ListItem key={text} >
                                 <ListItemButton component={Link} to={item.to} className={styles.listItemButton}>
-                                    <ListItemText primary={text} />
+                                    <ListItemText primary={text} className={styles.listIt} />
                                 </ListItemButton>
                             </ListItem>
                         )

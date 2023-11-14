@@ -1,9 +1,10 @@
 import React from 'react';
 import { Box, Grid, styled, Typography, Button } from '@mui/material';
 import Title from './Title';
-import imgDetail from '../assets/firstcourse.jpg';
 import backgrnd from '../assets/footer.jpg';
+import { Carousel } from "./Carousel";
 
+import slides  from "../data/carouselData";
 const CustomGridItem = styled(Grid)({
   display: 'flex',
   flexDirection: 'column',
@@ -46,11 +47,14 @@ const GetStarted = () => {
         </Box>
       </CustomGridItem>
 
-      <Grid item xs={12} sm={4} md={6} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
-        <img src={imgDetail} alt="" style={{ width: '100%' , maxWidth: '100%', marginRight: '40px'  }} />
+      <Grid>
+      <Carousel data={slides} />
       </Grid>
     </Grid>
   );
 };
 
 export default GetStarted;
+
+
+

@@ -1,32 +1,63 @@
+.appbar{
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    /* Set the width and height of the logo image */
+    width: 60px;
+    height: 60px;
+    /* Align the logo to the left of the nav bar */
+    float: left;
+
+    background-image: url("../assets/PRASTHAN\ YATNAM-OK.jpg"); /* Add the path to your logo image */
+    background-size: contain; /* You can use 'contain' or 'cover' based on your preference */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Add some margin and padding around the logo */
+    
+    
+  }
+
 .styledToolbar {
     display: flex;
     justify-content: space-between;
-    background-color: antiquewhite;
+    background-color: aliceblue;
     background-image: url("../assets/logo.png");
     background-repeat: no-repeat;
     background-size: 50% 100%; /* Adjust this value as needed */
     background-position: center;
-    border:.5px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Changed the box shadow color to a darker gray */
+    border-top: 5px solid #ffffff; /* Increased the border width to 5px */
+    border-bottom: .5px solid #ffffff; /* Increased the border width to 5px */
+    
 }
 .listMenu {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #0a0908;
-    background-color: antiquewhite;
+    background-color: aliceblue;
     font-family: Arial, sans-serif,cursive; /* This will change the font of your element to Arial, and use a generic sans-serif font if Arial is not available */
     font-style: italic;
     height: 25px;   
 }
 
+
+
 @media screen and (min-width: 600px) {
     .listMenu {
         display: flex;
-        justify-content: space-around; /* This will distribute your items evenly along the horizontal line with equal space around them. */
+        justify-content: space-around; 
+        
+
+        /* This will distribute your items evenly along the horizontal line with equal space around them. */
     }
 }
 
 .listItemButton {
+    background-color: rgb(230, 243, 255);
     color: #000000;
     padding: 5px 10px; /* This will add some space around your items, making them look more like buttons. Adjust as needed. */
     text-decoration: none; /* This will remove the underline from your items. */
